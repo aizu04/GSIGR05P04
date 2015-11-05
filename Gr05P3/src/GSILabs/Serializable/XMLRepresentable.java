@@ -14,6 +14,7 @@ import java.io.File;
  * This interface embodies the ability of a a class of objects to represent itself
  * 	using XML. 
  * Note that it refers, in no manner, to its ability to create instances from such a representation.
+ * 
  *
  * @author carlos.lopez
  * @version 1.0 (04/09/2015)    
