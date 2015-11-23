@@ -172,6 +172,18 @@ public class Client implements XMLRepresentable{
     }
     
     /**
+     * Devuelve la primera tarjeta de credito que tenga el cliente
+     * @return un string con la primera tarjeta de credito introducida
+     * por el cliente
+     */
+    public String getFirstCreditCard(){
+        
+        Iterator i = creditCards.iterator();
+        return (String)i.next();
+        
+    }
+    
+    /**
      * Comparación entre dos objetos Client
      * @param o Objeto a comparar
      * @return True si tienen el mismo identificador numérico. False en caso contrario
